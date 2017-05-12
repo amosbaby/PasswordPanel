@@ -12,6 +12,9 @@
 		B0237AE91DCC84C000EA9724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0237AE71DCC84C000EA9724 /* Main.storyboard */; };
 		B0237AEB1DCC84C000EA9724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0237AEA1DCC84C000EA9724 /* Assets.xcassets */; };
 		B0237AEE1DCC84C000EA9724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0237AEC1DCC84C000EA9724 /* LaunchScreen.storyboard */; };
+		B0237AF61DCC84F000EA9724 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0237AF51DCC84F000EA9724 /* LoginViewController.swift */; };
+		B0237AF81DCC86E900EA9724 /* GesturePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0237AF71DCC86E900EA9724 /* GesturePasswordView.swift */; };
+		B0237AFB1DCC8BE100EA9724 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0237AFA1DCC8BE100EA9724 /* UIView+Frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B0237AEA1DCC84C000EA9724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0237AED1DCC84C000EA9724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0237AEF1DCC84C000EA9724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0237AF51DCC84F000EA9724 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B0237AF71DCC86E900EA9724 /* GesturePasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GesturePasswordView.swift; sourceTree = "<group>"; };
+		B0237AFA1DCC8BE100EA9724 /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		B0237AE21DCC84C000EA9724 /* AmosPasswordStore */ = {
 			isa = PBXGroup;
 			children = (
+				B0237AF91DCC8BB500EA9724 /* Utils */,
 				B0237AE31DCC84C000EA9724 /* AppDelegate.swift */,
 				B0237AE51DCC84C000EA9724 /* ViewController.swift */,
 				B0237AE71DCC84C000EA9724 /* Main.storyboard */,
 				B0237AEA1DCC84C000EA9724 /* Assets.xcassets */,
 				B0237AEC1DCC84C000EA9724 /* LaunchScreen.storyboard */,
 				B0237AEF1DCC84C000EA9724 /* Info.plist */,
+				B0237AF51DCC84F000EA9724 /* LoginViewController.swift */,
+				B0237AF71DCC86E900EA9724 /* GesturePasswordView.swift */,
 			);
 			path = AmosPasswordStore;
+			sourceTree = "<group>";
+		};
+		B0237AF91DCC8BB500EA9724 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B0237AFA1DCC8BE100EA9724 /* UIView+Frame.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0237AF61DCC84F000EA9724 /* LoginViewController.swift in Sources */,
+				B0237AFB1DCC8BE100EA9724 /* UIView+Frame.swift in Sources */,
+				B0237AF81DCC86E900EA9724 /* GesturePasswordView.swift in Sources */,
 				B0237AE61DCC84C000EA9724 /* ViewController.swift in Sources */,
 				B0237AE41DCC84C000EA9724 /* AppDelegate.swift in Sources */,
 			);
